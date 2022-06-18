@@ -9,12 +9,12 @@ int main ()
     
     while (i<=n)
     {
-        int j =0;
+        int j =1;
         while (j<=i)
         
         
         {
-            cout<<j+i;
+            cout<<j+i-1;
             count=count+1;
             
             j=j+1;
