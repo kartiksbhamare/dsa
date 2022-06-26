@@ -18,7 +18,7 @@ int main (
             col=col+1;
             
         }
-        
+        cout<<"ok";
         cout<<endl;
         row=row+1;
     }
