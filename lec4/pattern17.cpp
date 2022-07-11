@@ -10,7 +10,7 @@ int main(){
      
         char start=('A'+n-row);
         while (col<=row)
-        {
+        { 
             
             cout<<start;
             start=start+1;
