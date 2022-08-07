@@ -17,6 +17,4 @@ int main(){
         row=row+1;
     }
     
-    
-    
 }
