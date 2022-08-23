@@ -5,9 +5,9 @@ int main (){
 
     cout<<"enter the number";
     cin>>a;
-    int i=0 ;
+    int i ;
     int sum=0;
-    for ( i = 0; i <=a; i++)
+    for ( i = 3; i <=a; i++)
     {
         sum+=i;
     }
