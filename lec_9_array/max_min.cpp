@@ -1,18 +1,39 @@
 #include<iostream>
 using namespace std;
-void(int arr[],int )
-int main () {
-    int arr[6]={8,5,2,5,8,82};
-    for (int i = 0; i <7; i++)
-    { 
-        if (arr[i]> arr[0])
-        {
-            int max=arr[i];
-        }
-        
-        
+int maxi(int arr[],int n){
+  int maxx=INT_MIN;
+  for (int i = 0; i < n; i++)
+  {
+    if (arr[i]>maxx)
+    {
+      maxx=arr[i];
     }
-   
-     
+    
+  }
+   return maxx;
+}
+int mini (int arr[],int n ){
+  int mini=INT_MAX;
+  for ( int i = 0; i < n; i++)
+  {
+    if (arr[i]<mini)
+    {
+      mini = arr[i];
 
+    }
+    return mini;
+    
+  }
+}
+
+int main (){
+  int size ;
+  cin>>size;
+  int arr[1000];
+  for (int i = 0; i <=size; i++)
+  {
+      cin>>arr[i];
+  }
+  cout<<"Maximum Value: "<<maxi(arr,size)<< endl ;
+  cout<<"minimum no: "<<mini(arr,size)<<endl;
 }
