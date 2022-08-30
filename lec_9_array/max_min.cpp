@@ -35,5 +35,5 @@ int main (){
       cin>>arr[i];
   }
   cout<<"Maximum Value: "<<maxi(arr,size)<< endl ;
-  cout<<"minimum no: "<<mini(arr,size)<<endl;
+  cout<<"minimum no: "<<mini(arr, size)<<endl;
 }
