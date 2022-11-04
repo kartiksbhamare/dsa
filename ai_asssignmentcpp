@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+void bfs (vector int> graph[], int source, int n, vector int> &ans)
+queue int> 41; vector<bool> visited(n, false); int ki;
+91.push(source); visited[source] = true;
+while (qi.size()
+k1 = 91.fronto: 91.pop(); ans.push_back(ki);
+for (auto itr = graph[ki].begin(); itr
+- graph[k1).end(); itri)
+if (visited[*itr])
+visited[*itr] = true; 41.push(itr);
+int main()
+ios_base: : sync_with_stdio(NULL); cin.tie(); cout.tie();
+int n, m, source; cin >> n >>m >> source;
+vector int> graph[n];
+for (int i =
+0;
+i < m;
+i++)
+int V1, V2: cin >> V1 >> V2:
+eraph[v1].push_back(v2); graph[V2] .push_back(vi);
+vector int> ans; bfs(eraph, source, n, ans);
+cout << "BFS Traversal for the given graph is : "; for (int i = 0; i < ans.size(); i++)
+cout << ans[i] << " ";
+return a;
