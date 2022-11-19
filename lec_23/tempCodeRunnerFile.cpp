@@ -6,16 +6,16 @@ int main (){
     for(int i =0;i<3;i++){
         for (int j = 0; i < 4; j++)
         {
-            cin>>arrr[3][4];
+            cin>>arrr[i][j];
         }
         
     }
     for(int i =0;i<3;i++){
         for (int j = 0; i < 4; j++)
         {
-            cout<<arrr[3][4]<<" ";
+            cout<<arrr[i][j]<<" ";
         }
         cout<<endl;
     }
-    return 0;
+    
 }
