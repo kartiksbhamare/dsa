@@ -1,5 +1,5 @@
 #include<iostream>
-using namesapce std ;
+using namespace std ;
 int power(int n ){
     if ( n ==0 ){
         return 1 ;
@@ -14,4 +14,5 @@ int main () {
     cin>>n ;
     int ans = power(n);
     cout<<ans<<endl; 
+    return 0 ; 
 }
